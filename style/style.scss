@@ -1,21 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
-$mainFont: 'Mitr'; 
+@import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
 
 * {
   padding: 0;
   margin: 0;
-  font-family: $mainFont, 'Courier New', Courier, monospace;
+  font-family: "Mitr", "Courier New", Courier, monospace;
 }
 
 body {
-  background-color: #eee;
+  background-color: #ccc;
 }
 
 .center {
   display: flex;
   position: relative;
   flex-direction: column;
-  // border: 1px solid black;
   height: 95vh;
   width: 100vw;
   text-align: center;
@@ -31,7 +29,6 @@ body {
     font-weight: 800;
     text-transform: capitalize;
   }
-
 }
 
 button {
@@ -50,6 +47,6 @@ button {
 }
 
 label {
-  margin: .5em;
+  margin: 0.5em;
   text-transform: capitalize;
 }

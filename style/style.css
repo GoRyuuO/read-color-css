@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #ccc;
 }
 
 .center {
@@ -53,7 +53,7 @@ button {
 }
 
 label {
-  margin: .5em;
+  margin: 0.5em;
   text-transform: capitalize;
 }
 /*# sourceMappingURL=style.css.map */
